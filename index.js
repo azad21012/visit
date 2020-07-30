@@ -3,7 +3,7 @@ const redis = require("redis");
 
 const app =express();
 const client = redis.createClient({
-    host:"http://localhost",
+    host:"192.168.1.33",
     port:6379
 });
  
